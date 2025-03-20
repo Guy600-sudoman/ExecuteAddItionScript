@@ -42,7 +42,6 @@ local Button = AdditionScriptsTab:CreateButton({
    end,
 })
 
-local AdditionScriptsTab = Window:CreateTab("Addition Scripts", "plus")
 local Button = AdditionScriptsTab:CreateButton({
    Name = "Math Murder",
    Callback = function()
