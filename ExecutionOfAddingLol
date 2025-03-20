@@ -44,7 +44,7 @@ local Button = AdditionScriptsTab:CreateButton({
 
 local AdditionScriptsTab = Window:CreateTab("Addition Scripts", "plus")
 local Button = AdditionScriptsTab:CreateButton({
-   Name = "Math Murdee",
+   Name = "Math Murder",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Guy600-sudoman/Math-Murder/refs/heads/main/Math-Official-Murd"))()
    end,
