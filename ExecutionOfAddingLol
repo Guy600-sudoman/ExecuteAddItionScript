@@ -1,10 +1,10 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "Operations SuperHub: Addition",
+   Name = "Operations SuperHub: Parenthesis",
    Icon = "plus", -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
    LoadingTitle = "Welcome to Operations SuperHub",
-   LoadingSubtitle = "Operation: Addition",
+   LoadingSubtitle = "Operation: Parenthesis",
    Theme = "Default", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
    DisableRayfieldPrompts = false,
@@ -34,15 +34,16 @@ local Window = Rayfield:CreateWindow({
    }
 })
 
-local AdditionScriptsTab = Window:CreateTab("Addition Scripts", "plus")
-local Button = AdditionScriptsTab:CreateButton({
+local ParenthesisScriptsTab = Window:CreateTab("Parenthesis Scripts", "parentheses")
+
+local Button = ParenthesisScriptsTab:CreateButton({
    Name = "Blade Ball",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/sirapobsriumang/Blade-ball/main/Blade-ball-free.lua"))()
    end,
 })
 
-local Button = AdditionScriptsTab:CreateButton({
+local Button = ParenthesisScriptsTab:CreateButton({
    Name = "Math Murder",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Guy600-sudoman/Math-Murder/refs/heads/main/Math-Official-Murd"))()
